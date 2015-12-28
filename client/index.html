@@ -25,6 +25,7 @@
       <!-- injector:css -->
       <link rel="stylesheet" href="app/app.css">
       <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="app/view/view.css">
       <link rel="stylesheet" href="components/modal/modal.css">
       <!-- endinjector -->
     <!-- endbuild -->
@@ -58,6 +59,11 @@
       <script src="bower_components/datetimepicker/jquery.datetimepicker.js"></script>
       <script src="bower_components/moment/moment.js"></script>
       <script src="bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.js"></script>
+      <script src="bower_components/amcharts3/amcharts/amcharts.js"></script>
+      <script src="bower_components/highcharts-ng/dist/highcharts-ng.js"></script>
+      <script src="bower_components/highcharts/highcharts.js"></script>
+      <script src="bower_components/highcharts/highcharts-more.js"></script>
+      <script src="bower_components/highcharts/modules/exporting.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
 
@@ -66,8 +72,12 @@
         
         <script src="app/app.js"></script>
           <!-- injector:js -->
+          <script src="app/amchart/amchart.directive.js"></script>
+          <script src="app/chart/chart.directive.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
+          <script src="app/view/view.controller.js"></script>
+          <script src="app/view/view.js"></script>
           <script src="components/modal/modal.service.js"></script>
           <script src="components/navbar/navbar.controller.js"></script>
           <!-- endinjector -->

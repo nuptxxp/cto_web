@@ -5,7 +5,8 @@ angular.module('ctoWebApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'highcharts-ng',
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider

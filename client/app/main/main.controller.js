@@ -41,7 +41,7 @@ angular.module('ctoWebApp')
 
     //get all app count
     $scope.search = function(){
-        $http.get('/api/querys', {
+        $http.get('/api/queryApp', {
             params: {
                 starttime: $scope.query.starttime + ':00',
                 endtime: $scope.query.endtime + ':00',

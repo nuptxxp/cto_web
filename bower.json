@@ -15,7 +15,10 @@
     "lodash": "~2.4.1",
     "flat-ui": "~2.2.2",
     "datetimepicker": "~2.4.5",
-    "angular-bootstrap-datetimepicker": "~0.3.15"
+    "angular-bootstrap-datetimepicker": "~0.3.15",
+    "amcharts3": "~3.18.3",
+    "highcharts-ng": "~0.0.11",
+    "highcharts": "~4.2.1"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
